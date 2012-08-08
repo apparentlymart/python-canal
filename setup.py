@@ -9,6 +9,6 @@ setup(
     author="Martin Atkins",
     author_email="mart@degeneration.co.uk",
     url="https://github.com/apparentlymart/python-canal",
-    packages=["canal"],
+    packages=["canal", "canal.nodes"],
     requires=["greenlet"],
 )
